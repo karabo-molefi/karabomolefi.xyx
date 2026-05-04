@@ -5,8 +5,11 @@
     --text-muted: oklch(55.3% .013 58.071);
     --dark-headings:oklch(92.3% .003 48.717);
     --border: oklch(100% 0 0 / .13);
+    --spacing: 0.25rem;
+}
 
-;
+.gap-8{
+    gap: calc(var(--spacing) * 8);
 }
 
 body{
