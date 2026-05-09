@@ -106,6 +106,7 @@ body{
 }
 
 
+
 /* connect section */
 
 .ul-box{
@@ -123,4 +124,17 @@ body{
 
 .text-ul, .material-symbols-outlined {
     font-size: 1.25rem;
+}
+
+.ul-icon{
+    height: 22px;
+
+}
+
+body > div > main > div:nth-child(3) > ul{
+    padding-left: 0;
+}
+
+.connect-link{
+    color: var(--gray-11);
 }
