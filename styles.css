@@ -115,3 +115,12 @@ body{
 .social-grid{
     list-style-type: none;
 }
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+
+.text-ul, .material-symbols-outlined {
+    font-size: 1.25rem;
+}
